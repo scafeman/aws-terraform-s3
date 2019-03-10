@@ -9,12 +9,12 @@
  *```
  *module "s3" {
  *  source = "git@github.com:rackspace-infrastructure-automation/aws-terraform-s3//?ref=v0.0.4"
- *  bucket_name = "${random_string.s3_rstring.result}-example-s3-bucket"
+ *  bucket_name = "${random_string.s3_rstring.result}-mscafe-terraform-s3-bucket"
  *  bucket_acl = "bucket-owner-full-control"
  *  bucket_logging = false
  *  bucket_tags = {
- *    RightSaid = "Fred"
- *    LeftSaid  = "George"
+ *    RightSaid = "Matt"
+ *    LeftSaid  = "Scafe"
  *  }
  *  environment = "Development"
  *  lifecycle_enabled = true
